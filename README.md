@@ -27,13 +27,12 @@ Aplicación web de gestión financiera personal refactorizada a una arquitectura
 
 ```text
 finanzas/
-├── prototipo/                  # Prototipos originales y DESIGN.md de Kinetic Capital
 ├── src/
 │   ├── components/
 │   │   ├── layout/             # Header.jsx, BottomNav.jsx, AppLayout.jsx
 │   │   └── modals/             # ActionModals.jsx (Gasto, Transferencia, Factura, Categoría)
 │   ├── context/                # FinanceContext.jsx (Estado global + localStorage)
-│   ├── data/                   # initialData.ts / initialData.js (Datos iniciales COP)
+│   ├── data/                   # initialData.js (Datos iniciales COP)
 │   ├── pages/                  # DashboardPage, BillsPage, BudgetsPage, ReportsPage
 │   ├── utils/                  # formatCurrency.js
 │   ├── App.jsx
